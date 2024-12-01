@@ -9,11 +9,8 @@ apt install meson, build-essential
 
 ```shell
 cd gstreamer-rockchip
-
 meson setup build --prefix=/usr
-
 meson compile -C build
-
 meson install -C build
 ```
 
